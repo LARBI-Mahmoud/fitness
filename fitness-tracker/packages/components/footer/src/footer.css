@@ -1,0 +1,46 @@
+/* Footer styles (Footer.css) */
+
+/* Set a dark background color and red highlights for the footer */
+.footer {
+    background-color: black;
+    color: white;
+    padding: 30px;
+    text-align: center;
+    font-size: 14px;
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Footer text styling */
+.footer p {
+    margin: 0;
+    font-weight: 500;
+}
+
+/* Links inside the footer */
+.footer a {
+    text-decoration: none;
+    color: red; /* Red color for footer links */
+    font-weight: 600;
+    margin: 0 10px;
+    transition: color 0.3s;
+}
+
+/* Hover effect for the links */
+.footer a:hover {
+    color: white;
+    border-bottom: 2px solid red;
+}
+
+/* Responsive styling for smaller screens */
+@media (max-width: 768px) {
+    .footer {
+        padding: 20px;
+    }
+
+    .footer a {
+        font-size: 14px;
+    }
+}
