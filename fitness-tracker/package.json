@@ -13,6 +13,7 @@
   },
   "dependencies": {
     "@mui/styles": "^6.1.9",
+    "axios": "^1.7.9",
     "react-router-dom": "^7.0.2"
   }
 }
